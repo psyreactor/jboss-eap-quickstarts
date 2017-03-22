@@ -1,0 +1,25 @@
+<settings>
+    <proxies>
+        <proxy>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>10.255.10.33</host>
+            <port>8080</port>
+            <nonProxyHosts>*.cloudtelecom.com|*.apps.cloudtelecom.com.ar</nonProxyHosts>
+        </proxy>
+        <proxy>
+            <active>true</active>
+            <protocol>https</protocol>
+            <host>10.255.10.33</host>
+            <port>8080</port>
+            <nonProxyHosts>*.cloudtelecom.com|*.apps.cloudtelecom.com.ar</nonProxyHosts>
+        </proxy>
+        <proxy>
+            <active>true</active>
+            <protocol>ftp</protocol>
+            <host>10.255.10.33</host>
+            <port>8080</port>
+            <nonProxyHosts>*.cloudtelecom.com|*.apps.cloudtelecom.com.ar</nonProxyHosts>
+        </proxy>
+    </proxies>
+</settings>
